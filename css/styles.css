@@ -1,0 +1,231 @@
+:root {
+    --color-info: #434455;
+    --color-main: #2e2f42;
+    --buton: #4d5ae5;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/* ======= Дефолтні стилі ( як описати англійською?)======= */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header__logo {
+    margin-left: 156px;
+}
+
+.header_studio_logo {
+    color: #2e2f42;
+}
+
+/* ===========nav========== */
+
+.list_menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list_menu:hover {
+    color: #404bbf;
+}
+
+.list_menu:focus {
+    color: #404bbf;
+}
+
+/* ========address========= */
+
+.address {
+    font-style: normal;
+}
+
+.address_contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-info);
+}
+
+.address_contact:hover {
+    color: #404bbf;
+}
+
+.address_contact:focus {
+    color: #404bbf;
+}
+
+/* ===========main============ */
+
+/* ========section one (wrapper)=========== */
+
+.wrapper {
+    background-color: var(--color-main);
+}
+
+.wrapper-content {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.wrapper-content-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.wrapper-content-button:hover {
+    background-color: #404BBF;
+}
+
+.wrapper-content-button:focus {
+    background-color: #404BBF;
+}
+
+/* =======section two (content)======== */
+
+.section-two-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+
+}
+
+.section-two-content {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-info);
+}
+
+/* ========section three (content)======= */
+
+.section-three-title {
+    letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-main);
+}
+
+/* =========section four (content)======== */
+
+.section-four {
+    background-color: #F4F4FD;
+}
+
+.section-four-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-main);
+}
+
+.section-four-box {
+    background-color: #FFFFFF;
+}
+
+.section-four-box-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+}
+
+.section-four-box-content {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* =========footer=========== */
+
+.footer {
+    background-color: var(--color-main);
+}
+
+.footer__logo {
+    color: #f4f4fd;
+}
+
+.footer p {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+/* =========portfolio========== */
+/* =========section content==== */
+
+.button-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--buton);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.button-portfolio:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.button-portfolio:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+}
+
+.portfolio-content {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
