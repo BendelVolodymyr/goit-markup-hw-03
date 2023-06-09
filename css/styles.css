@@ -6,22 +6,24 @@
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* ======= Дефолтні стилі ( як описати англійською?)======= */
-.link {
+.container {
+    width: 1440px;
+}
+
+a {
     text-decoration: none;
 }
 
-.list {
+ul {
     list-style: none;
 }
 
 /* header */
-
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -214,6 +216,7 @@ body {
     background-color: #404BBF;
     color: #FFFFFF;
 }
+
 
 .portfolio-title {
     font-weight: 500;
