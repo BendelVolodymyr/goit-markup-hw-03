@@ -11,6 +11,10 @@ body {
     width: 1440px;
 }
 
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 h1,
 h2,
 h3,
@@ -25,6 +29,8 @@ h6 {
 
 .menu {
     display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .logo {
@@ -38,7 +44,7 @@ h6 {
 }
 
 .header__logo {
-    margin-left: 156px;
+    padding: 24px 76px 24px 156px;
 }
 
 .header_studio_logo {
@@ -46,6 +52,11 @@ h6 {
 }
 
 /* ===========nav========== */
+
+.nav {
+    display: flex;
+    padding-right: 332px;
+}
 
 .list_menu {
     font-weight: 500;
@@ -67,6 +78,12 @@ h6 {
 
 .address {
     font-style: normal;
+}
+
+.address>ul {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .address_contact {
@@ -98,6 +115,7 @@ h6 {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+
     padding: 188px 472px 48px 472px;
 }
 
@@ -132,6 +150,7 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-main);
+
     padding-bottom: 8px;
 
 }
@@ -141,13 +160,33 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-info);
+    height: 72px;
+    width: 264px;
+    overflow: scroll;
+}
+
+.section-two-flex {
+    display: flex;
+    justify-content: center;
+    width: 1128px;
+    height: 104px;
+    margin: 0px 156px 120px 156px;
+}
+
+.section-two-flex {
+    gap: 24px;
 }
 
 /* ========section three (content)======= */
 
 .section-three {
     width: 1128px;
-    margin: 0px 156px 120px 156;
+    margin: 0px 156px 120px 156px;
+}
+
+.section-three ul {
+    display: flex;
+    gap: 24px;
 }
 
 .section-three-title {
@@ -157,13 +196,19 @@ h6 {
     text-align: center;
     text-transform: capitalize;
     color: var(--color-main);
-    padding-bottom: 8px;
+    padding-bottom: 72px;
 }
 
 /* =========section four (content)======== */
 
 .section-four {
     background-color: #F4F4FD;
+}
+
+.section-four ul {
+    display: flex;
+    gap: 24px;
+    padding: 0 156px 120px 156px;
 }
 
 .section-four-title {
@@ -173,10 +218,14 @@ h6 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-main);
+
+    padding: 120px 639px 72px 639px;
 }
 
 .section-four-box {
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-four-box-title {
@@ -185,24 +234,39 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-main);
+    text-align: center;
+
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .section-four-box-content {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    padding-bottom: 32px;
 }
 
 /* =========footer=========== */
 
 .footer {
     background-color: var(--color-main);
+    width: 1440px;
+    height: 312px;
+}
+
+.footer-box {
+    width: 264px;
+    height: 112px;
 }
 
 .footer__logo {
     color: #f4f4fd;
 }
 
-.footer p {
+.footer__link {}
+
+.footer-box p {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -256,17 +320,7 @@ h6 {
 
 /* ============================ */
 
-.section-two-flex {
-    display: flex;
-    justify-content: center;
-    width: 1128px;
-    height: 104px;
-    margin: 0px 156px 120px 156px;
-}
 
-.section-two-flex li {
-    calc((100% - 24px) / 3);
-}
 
 a {
     text-decoration: none;
@@ -278,14 +332,23 @@ img {
 
 p {
     margin: 0;
+    padding: 0;
 }
 
 ul,
 li {
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: block;
 }
 
 .header {
     display: flex;
+    height: 72px;
+    align-items: center;
 }
+
+/* .container {
+    margin: 0 auto;
+} */
