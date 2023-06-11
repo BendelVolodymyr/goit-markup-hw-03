@@ -162,7 +162,7 @@ h6 {
     color: var(--color-info);
     height: 72px;
     width: 264px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .section-two-flex {
@@ -264,7 +264,9 @@ h6 {
     color: #f4f4fd;
 }
 
-.footer__link {}
+.footer__link {
+    paddingm: 76px 1020px 124px 156px;
+}
 
 .footer-box p {
     line-height: 1.5;
