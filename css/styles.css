@@ -258,20 +258,22 @@ h6 {
 .footer-box {
     width: 264px;
     height: 112px;
+    padding: 100px 1020px 100px 156px;
 }
 
 .footer__logo {
     color: #f4f4fd;
 }
 
-.footer__link {
-    paddingm: 76px 1020px 124px 156px;
-}
-
 .footer-box p {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.footer-text {
+    padding-top: 16px;
+    width: 264px;
 }
 
 /* =========portfolio========== */
