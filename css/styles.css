@@ -204,12 +204,12 @@ h6 {
 
 .section-four {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .section-four ul {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .section-four-title {
@@ -220,7 +220,7 @@ h6 {
     text-transform: capitalize;
     color: var(--color-main);
 
-    padding: 120px 639px 72px 639px;
+    padding-bottom: 72px;
 }
 
 .section-four-box {
@@ -254,12 +254,12 @@ h6 {
     background-color: var(--color-main);
     width: 1440px;
     height: 312px;
+    padding: 100px;
 }
 
 .footer-box {
     width: 264px;
     height: 112px;
-    padding: 100px 1020px 100px 156px;
 }
 
 .footer__logo {
