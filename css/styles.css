@@ -106,9 +106,12 @@ h6 {
 
 /* ========section one (wrapper)=========== */
 
+.section-one {
+    padding: 188px 0;
+}
+
 .wrapper {
     background-color: var(--color-main);
-    margin-bottom: 98px;
 }
 
 .wrapper-content {
@@ -350,19 +353,19 @@ h6 {
     width: 360px;
     height: 420px;
     border: 1px solid #E7E9FC;
+    row-gap: 48px;
 }
 
 .portfolio-menu {
     display: flex;
     justify-content: center;
+    padding: 0;
     gap: 24px;
-    width: 586px;
-    margin-bottom: 72px;
+    margin: 0 auto 72px auto;
+
 }
 
-.portfolio-block {
-    margin-bottom: 120px;
-}
+.portfolio-block {}
 
 /* ============================ */
 
