@@ -108,9 +108,6 @@ h6 {
 
 .section-one {
     background-color: var(--color-main);
-}
-
-div.wrapper {
     padding: 188px 0;
 }
 
@@ -227,7 +224,7 @@ div.wrapper {
     text-transform: capitalize;
     color: var(--color-main);
 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .section-four-box {
@@ -237,22 +234,27 @@ div.wrapper {
 }
 
 .section-four-box-title {
+    width: calc((100% - 24px) / 3);
+}
+
+.div__four {
+    padding: 32px 16px;
+}
+
+.section-four-box-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-main);
     text-align: center;
-
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .section-four-box-content {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
 }
 
 /* =========footer=========== */
@@ -261,7 +263,7 @@ div.wrapper {
     background-color: var(--color-main);
     width: 1440px;
     height: 312px;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer-box {
@@ -280,8 +282,12 @@ div.wrapper {
 }
 
 .footer-text {
-    padding-top: 16px;
     width: 264px;
+}
+
+.footer__link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* =========portfolio========== */
