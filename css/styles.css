@@ -107,11 +107,11 @@ h6 {
 /* ========section one (wrapper)=========== */
 
 .section-one {
-    padding: 188px 0;
+    background-color: var(--color-main);
 }
 
-.wrapper {
-    background-color: var(--color-main);
+div.wrapper {
+    padding: 188px 0;
 }
 
 .wrapper-content {
@@ -120,8 +120,8 @@ h6 {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-
-    padding: 188px 472px 48px 472px;
+    max-width: 496px;
+    margin: 0 auto 0 auto;
 }
 
 .wrapper-content-button {
@@ -133,10 +133,12 @@ h6 {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
-    margin: 0px 635px 185px 636px;
+    border: none;
     border-radius: 4px;
+    display: block;
+    margin: 48px auto 0 auto;
 }
 
 .wrapper-content-button:hover {
