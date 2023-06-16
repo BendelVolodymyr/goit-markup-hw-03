@@ -24,6 +24,11 @@ h6 {
     margin: 0;
 }
 
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
 
 /* header */
 
@@ -189,7 +194,7 @@ h6 {
     padding-bottom: 120px;
 }
 
-.section-three ul {
+.section-three-ul {
     display: flex;
     gap: 24px;
 }
@@ -211,7 +216,7 @@ h6 {
     padding: 120px 0;
 }
 
-.section-four ul {
+.section-four-ul {
     display: flex;
     gap: 24px;
 }
@@ -292,15 +297,8 @@ h6 {
 
 /* =========portfolio========== */
 .section-portfolio {
+    padding-top: 96px;
     padding-bottom: 120px;
-}
-
-.header_portfolio {
-    margin-bottom: 96px;
-}
-
-.portfolio-shadow {
-    display: none;
 }
 
 /* =========section content==== */
@@ -357,6 +355,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     justify-content: center;
 }
 
