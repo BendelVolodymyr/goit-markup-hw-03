@@ -190,10 +190,6 @@ h6 {
 
 .section-two-flex {
     display: flex;
-    justify-content: center;
-    width: 1128px;
-    height: 104px;
-    margin-bottom: 120px;
     gap: 24px;
 }
 
